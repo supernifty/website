@@ -1,3 +1,4 @@
+import ExtLink from './ExtLink';
 import data from './data/teaching.json'
 
 const Teaching = (): JSX.Element => {
@@ -7,7 +8,7 @@ const Teaching = (): JSX.Element => {
             <div className="text-base ml-4 text-gray-700">
                 <ul className="list-disc">
                   {data.map((classInfo) => (
-                     <li key={classInfo.id}>TA: {classInfo.id}, {classInfo.name}</li>
+                     <li><b>{classInfo.role}</b>: <ExtLink href={classInfo.courseLink}>{classInfo.course}</ExtLink> at <ExtLink href={classInfo.institutionLink}>{classInfo.institutionName}</ExtLink>. <br/>{classInfo.when} {classInfo.note}<br/><br/></li>
                   ))}
                 </ul>
             </div>

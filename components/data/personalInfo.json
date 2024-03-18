@@ -1,39 +1,52 @@
 {
-    "title": "Harry Potter",
-    "name": "Harry James Potter",
-    "domain":"https://nextjs-academic-theme.vercel.app/",
-    "copyright":"harrypotter.me",
+    "title": "Peter Georgeson",
+    "name": "Dr Peter Georgeson",
+    "domain":"https://petergeorgeson.org//",
+    "copyright":"Peter Georgeson",
     "socialMedia": {
-        "Twitter": "https://twitter.com/",
-        "LinkedIn": "https://www.linkedin.com/",
-        "GoogleScholar": "https://scholar.google.com/"
+        "Twitter": "https://twitter.com/petergeorgeson",
+        "LinkedIn": "https://www.linkedin.com/in/peter-georgeson-b884524/",
+        "GoogleScholar": "https://scholar.google.com.au/citations?user=uOi-Ge4AAAAJ&hl=en&oi=ao",
+        "Orcid": "http://orcid.org/0000-0002-5096-4735",
+        "Github": "https://github.com/supernifty"
     },
     "about": {
-        "year": "7th-year",
+        "role": "postdoctoral cancer researcher",
+        "group": {
+            "name": "Colorectal Oncogenomics Group",
+            "link": "https://www.buchananlab.org/"
+        },
         "department": {
-            "name": "Gryffindor",
-            "link": "https://harrypotter.fandom.com/wiki/Gryffindor"
+            "name": "UMCCR",
+            "link": "https://mdhs.unimelb.edu.au/centre-for-cancer-research"
         },
         "college": {
-            "name": "Hogwarts School of Witchcraft and Wizardry",
-            "link": "https://harrypotter.fandom.com/wiki/Hogwarts_School_of_Witchcraft_and_Wizardry"
+            "name": "The University of Melbourne",
+            "link": "https://unimelb.edu.au"
         },
         "advisor": {
-            "name": "Albus Dumbledor",
-            "link": "https://harrypotter.fandom.com/wiki/Albus_Dumbledore"
+            "name": "Associate Professor Dan Buchanan",
+            "link": "https://www.buchananlab.org/"
         },
-        "email": "harrypotter AT MyUniversity",
-        "interest": "Defense against Dark Arts Spell; Dark Creatures"
+        "email": "peter.georgeson AT unimelb.edu.au",
+        "interest": "mutational signatures, colorectal cancer, statistical learning, genomics, bioinformatics"
     },
-    "love": "https://harrypotter.fandom.com/wiki/James_and_Lily_Potter",
     "education": [
         {
-            "name": "The Auror Department(2007-2008, Visiting Scholar)",
-            "link": "https://harrypotter.fandom.com/wiki/British_Auror_Office"
+            "name": "Doctor of Philosophy",
+            "institution": "The University of Melbourne, Australia"
         },
         {
-            "name": "Hogwarts Primary University(1911-1988, Bachelor's in Magic)",
-            "link": "https://harrypotter.fandom.com/wiki/Hogwarts_School_of_Witchcraft_and_Wizardry"
+            "name": "Master of Science (Computer Science)",
+            "institution": "The University of Melbourne, Australia"
+        },
+        {
+            "name": "Bachelor of Computer Engineering (Hons I)",
+            "institution": "The University of Newcastle, Australia"
+        },
+        {
+            "name": "Bachelor of Mathematics",
+            "institution": "The University of Newcastle, Australia"
         }
     ]
 

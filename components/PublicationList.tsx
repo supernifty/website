@@ -6,8 +6,8 @@ const PublicationList = (): JSX.Element => {
         <section className="grid w-full" id="publications">
             <h2 className="text-xl font-bold mt-12 mb-4">Publications</h2>
             <div>
-              {data.map((publication, index) => (
-                <PublicationItem publication={publication} index={index} key={index}/>
+              {data.map((publication) => (
+                <PublicationItem publication={publication}/>
               ))}
             </div>
 

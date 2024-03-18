@@ -6,8 +6,8 @@ const ProjectList = (): JSX.Element => {
         <section className="grid" id="publications">
             <h2 className="text-xl font-bold mt-12 mb-4">Projects</h2>
             <div>
-                {data.map((project, index) => (
-                    <ProjectItem project={project} index={index}/>
+                {data.map((project) => (
+                    <ProjectItem project={project}/>
                 ))}
             </div>
         </section>

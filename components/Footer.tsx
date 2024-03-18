@@ -11,11 +11,6 @@ const Footer = (): JSX.Element => {
                 <p> &copy; {new Date().getFullYear()}. {personalInfo.copyright}</p>
                 <SupportingBox></SupportingBox>
             </div>
-            
-            <p className="text-center text-sm opacity-40 dark:opacity-50 pb-4 pt-4">
-                Built with <i>Next.js, TailwindCSS</i> and <a href = {personalInfo.love}>💛</a>
-                . {' '}
-            </p>
         </footer>
     );
 };

@@ -1,4 +1,20 @@
-# NextJS Academic Theme
+# Academic website
+
+## Updating publications
+* go to orcid 
+* export all works to works.bib
+* ./utils/update_publications.py < works.bib > ./components/data/publications.json
+* npm run dev - view locally
+* npm run build - prepare for deploy
+* in ../firebase: firebase deploy --only hosting - push live
+
+still need to update...
+* grants supervision prizes
+* fix publications formatting
+
+* DONE presentations
+* DONE teaching
+* DONE point petergeorgeson.com to firebase
 
 ## [Demo](https://nextjs-academic-theme.vercel.app/)
 > A simple academic personal website, built with Preact, Tailwind CSS and Next.js, focused on performance, a11y and privacy 🚀

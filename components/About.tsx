@@ -13,19 +13,23 @@ const About = (): JSX.Element => {
 				</div>
 				<div className="flex flex-col max-w-xl w-full justify-evenly">
 					<h1 className="text-4xl font-bold pb-8 md:pb-0">{personalInfo.name}</h1>
+                                        <br/>
 					<p>
-						I am a {personalInfo.about.year} PhD student
-						in <ExtLink href= {personalInfo.about.department.link}>{personalInfo.about.department.name} </ExtLink>
-						at <ExtLink href= {personalInfo.about.college.link}>{personalInfo.about.college.name} </ExtLink> 
-						advised by <ExtLink href={personalInfo.about.advisor.link}> {personalInfo.about.advisor.name}. </ExtLink>
-						 <br/><a className = "text-sm">✉️ {personalInfo.about.email}</a>
+						I am a {personalInfo.about.role} based at <ExtLink href= {personalInfo.about.college.link}>{personalInfo.about.college.name} </ExtLink> 
+                                                in {personalInfo.about.advisor.name}'s <ExtLink href= {personalInfo.about.group.link}>{personalInfo.about.group.name}</ExtLink>.
 					</p>
+                                        <br/>
+					<p>
+                                           I have an ongoing interest in cancer genomics, statistical methods, and machine learning.
+                                           My current research focuses on the application of tumour mutational signatures to understanding and detecting the underlying aetiology driving different sub-types of colorectal cancer.
+					</p>
+                                        <br/>
 					<p className = "text-sm text-gray-600">
-						Research Interest: {personalInfo.about.interest}
+						Research Interests: {personalInfo.about.interest}.
 					</p>
 					<p className = "text-sm text-gray-400">
-						Under construction......<br/>
-						Re-architecting this site with some modern web technologies.
+					   <br/><br/>
+                                           <a className = "text-sm">✉️ {personalInfo.about.email}</a>
 					</p>
 				</div>
 			</div>
