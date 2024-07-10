@@ -8,8 +8,13 @@
 * npm run build - prepare for deploy
 * in ../firebase: firebase deploy --only hosting - push live
 
+Other stuff:
+* ./components/data
+
 still need to update...
-* grants supervision prizes
+* supervision  - daniel vo, alysha prisc
+* prizes ?? e.g. 
++ travel grant
 * fix publications formatting
 
 * DONE presentations
@@ -26,6 +31,8 @@ still need to update...
 - in components/data/teaching.json
 - in .env
 - in public/cv.pdf
+
+add a new section in Header.tsx and pages/index.jsx
 ---
 
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo)

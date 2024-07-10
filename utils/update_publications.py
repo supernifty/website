@@ -33,6 +33,7 @@ FIX = [
 def main(ifh, ofh):
   rs = bibtexparser.loads(ifh.read())
   items = []
+  titles = set()
   for r in rs.entries:
     #items.append({'title': r['title']})
     r['author'] = r['author'].replace(' and ', ', ')
@@ -43,6 +44,10 @@ def main(ifh, ofh):
     r['title'] = r['title'].replace('{', '').replace('}', '')
     r['journal'] = r.get('journal', '').replace('{', '').replace('}', '')
     #items.append(r)
+    if r['title'].startswith('Data from') or r['title'].startswith('Supplemental') or r['title'] in titles:
+      continue
+
+    titles.add(r['title'])
     items.append({'title': r['title'], 'author': r['author'], 'year': r['year'], 'url': r['url'], 'doi': r['doi'], 'journal': r.get('journal', '')})
   ofh.write(json.dumps(items, indent=4))
 

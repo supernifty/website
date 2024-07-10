@@ -10,7 +10,7 @@ const ProfileImage = (): JSX.Element => {
             
             // onMouseOut = {e => e.currentTarget.src = "/images/me.jpg"}
             draggable={false}
-            alt="My face"
+            alt="Dr Peter Georgeson"
             width={260}
             height={260}
         />

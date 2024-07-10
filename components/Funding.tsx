@@ -4,7 +4,7 @@ import data from './data/funding.json'
 const Funding = (): JSX.Element => {
     return (
         <section className="grid" id="funding">
-            <h2 className="text-xl font-bold mt-12 mb-4">Research Funding</h2>
+            <h2 className="text-xl font-bold mt-12 mb-4">Funding and Grants</h2>
             <div className="text-base ml-4 text-gray-700">
                 <ul className="list-disc">
                   {data.map((classInfo) => (

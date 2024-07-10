@@ -7,7 +7,12 @@ const Presentations = (): JSX.Element => {
             <div className="text-base ml-4 text-gray-700">
                 <ul className="list-disc">
                   {data.map((p) => (
-                     <li><span><b>{p.title}</b><br/><i>{p.where}</i> ({p.when}). {p.type}.<br/><br/></span></li>
+                     <li>
+                       <span><b>{p.title}</b><br/><i>{p.where}</i> ({p.when}). {p.type}. 
+                         {p.note && <i><br/>{p.note}.</i>}
+                         <br/><br/>
+                       </span>
+                     </li>
                   ))}
                 </ul>
             </div>
