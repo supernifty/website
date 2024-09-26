@@ -4,7 +4,7 @@ const Presentations = (): JSX.Element => {
     return (
         <section className="grid" id="presentations">
             <h2 className="text-xl font-bold mt-12 mb-4">Presentations</h2>
-            <div className="text-base ml-4 text-gray-700">
+            <div className="text-base ml-4 text-gray-700" key="presentations">
                 <ul className="list-disc">
                   {data.map((p) => (
                      <li>
