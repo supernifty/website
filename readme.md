@@ -12,17 +12,7 @@ Other stuff:
 * ./components/data
 
 still need to update...
-* supervision  - daniel vo, alysha prisc
 * prizes ?? e.g. 
-+ travel grant
-* fix publications formatting
-
-* DONE presentations
-* DONE teaching
-* DONE point petergeorgeson.com to firebase
-
-## [Demo](https://nextjs-academic-theme.vercel.app/)
-> A simple academic personal website, built with Preact, Tailwind CSS and Next.js, focused on performance, a11y and privacy 🚀
 
 ## Customize your info
 - in components/data/personalInfo.json
@@ -36,18 +26,6 @@ add a new section in Header.tsx and pages/index.jsx
 ---
 
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo)
-
-
-## Highlights
-
-- **Performant** - uses Preact and Next.js with SSG.
-- **Accessible** - follows [WAI-ARIA](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/WAI-ARIA_basics).
-- **Responsive** - uses latest CSS features and looks great on all devices.
-- Written in TypeScript
-- Built with:
-    - [Next.js](https://nextjs.org/) (Thereby, hosting on Vercel is recommended. FREE)
-    - [Tailwind CSS](https://tailwindcss.com/)
-    - [Preact](https://preactjs.com/)
 
 ## Development
 

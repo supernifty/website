@@ -36,7 +36,7 @@ def main(ifh, ofh):
   titles = set()
   for r in rs.entries:
     #items.append({'title': r['title']})
-    r['author'] = r['author'].replace(' and ', ', ')
+    r['author'] = r['author'].replace(' and ', '; ')
     for f in FIX:
       r['author'] = r['author'].replace(f[0], f[1])
       r['title'] = r['title'].replace(f[0], f[1])
